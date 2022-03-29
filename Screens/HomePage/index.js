@@ -10,6 +10,10 @@ const HomePage = ({ navigation }) => {
     navigation.navigate('Games List');
   };
 
+  const RandomizePagePressed = () => {
+    navigation.navigate('Randomize Page');
+  };
+
   return (
     <SafeAreaView style={styles.container}>
       <View>
@@ -25,7 +29,7 @@ const HomePage = ({ navigation }) => {
         <Button
           title="Randomize"
           color="#f194ff"
-          onPress={() => Alert.alert('Button with adjusted color pressed')}
+          onPress={() => RandomizePagePressed()}
         />
       </View>
       <Separator />

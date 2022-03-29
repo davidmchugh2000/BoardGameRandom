@@ -4,7 +4,7 @@ import styles from './styles';
 
 const Separator = () => <View style={styles.separator} />;
 
-const HomePage = ({ navigation }) => {
+const RandomizePage = ({ navigation }) => {
 
   const GamesListPagePressed = () => {
     navigation.navigate('Games List');
@@ -42,4 +42,4 @@ const HomePage = ({ navigation }) => {
   );
 };
 
-export default HomePage;
+export default RandomizePage;

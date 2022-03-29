@@ -23,4 +23,11 @@ export default StyleSheet.create({
       marginVertical: 20,
       borderBottomColor: '#737373',
     },
+    section: {
+      flexDirection: 'row',
+      alignItems: 'center',
+    },
+    checkbox: {
+      margin: 8,
+    },
   });
